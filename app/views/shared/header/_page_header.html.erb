@@ -1,0 +1,18 @@
+<div class="page-header secondary-menu red-menu">
+  <div class="logo">
+    <%= link_to '', root_path %>
+    <img src="<%= asset_path( yield(:page_logo).presence || 'logo.svg') %>" alt="">
+  </div>
+  <%= yield :sub_menu %>
+  <%= breadcrumbs separator: '/' %>
+  <div class="global-search-box">
+    <%= form_for '',url: recommend_factor_path,method: :get, html: {class: 'form-inline'} do |f| %>
+        <div class="form-group">
+          <%= f.text_field :word, class: 'form-control',  placeholder: '请输入关键词'%>
+        </div>
+        <button type="submit" class="btn btn-default">墨客指数</button>
+    <% end %>
+  </div>
+  <div class="clearfix"></div>
+  <div class="lines"></div>
+</div>

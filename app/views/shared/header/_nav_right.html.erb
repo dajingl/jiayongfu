@@ -1,0 +1,37 @@
+<ul class="nav navbar-nav navbar-right">
+  <% unless user_signed_in? %>
+      <li class="login">
+        <%= link_to '登录', new_user_session_path %>
+      </li>
+  <% else %>
+      <li class="user-has-photo">
+        <%= link_to user_session_path, class: 'user-name-box' do %>
+          <div class="user-photo-box"><%= background_img_tag current_user.avatar, placeholder_img: 'user-photo.svg', class: 'user-photo' %></div>
+          <div class="navbar-right-user-name"><%= current_user&.display_name %></div>
+        <% end %>
+        <div class="sign-out">
+          <p class="sign-out-active">
+            <%= link_to '我的主页', user_session_path %>
+          </p>
+          <p> <%= link_to '退出', destroy_user_session_path, method: :delete %></p>
+        </div>
+
+      </li>
+  <% end %>
+  <li><a href="javascript:void(0)">墨宝</a></li>
+  <li><a href="javascript:void(0)">创绘</a></li>
+  <li><a href="javascript:void(0)">艺术家</a></li>
+  <li>
+    <%= link_to '墨客轩' , moke_shops_path %>
+  </li>
+  <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+      更多
+    </a>
+    <ul class="dropdown-menu contact-box">
+      <li>
+        <%= link_to '联系我们', contact_us_path , class:'contact contact-bg' %>
+      </li>
+    </ul>
+  </li>
+</ul>

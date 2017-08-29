@@ -1,0 +1,15 @@
+<nav class="main-nav navbar navbar-default navbar-static-top">
+  <div class="container">
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-left">
+        <li><%= link_to '首页', root_path %></li>
+        <li><%= link_to '新闻', articles_path %></li>
+        <li><%= link_to '画廊', galleries_path %></li>
+        <li><%= link_to '展览', works_path %></li>
+        <li><%= link_to '专题', topics_path %></li>
+        <li><a href="javascript:void(0)">画派・书风</a></li>
+      </ul>
+      <%= render 'shared/header/nav_right' %>
+    </div><!--/.nav-collapse -->
+  </div>
+</nav>
