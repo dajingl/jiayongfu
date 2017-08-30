@@ -10,6 +10,15 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require rails-ujs
+//= require jquery
+//= require jquery_ujs
 //= require turbolinks
-//= require_tree .
+//= require bootstrap-sprockets
+//= require simditor
+//= require simditor/alignment_center
+//= require simditor/alignment_right
+//= require simditor/video
+//= require_directory ../../../vendor/assets/javascripts/common
+//= require_directory ../../../vendor/assets/javascripts/site
+//= require_directory ./shared
+//= require_directory ./pages
