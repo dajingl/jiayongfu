@@ -163,3 +163,1399 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 792ms (Views: 782.9ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-08-29 16:36:50 +0800
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 484ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: font-awesome.
+Load paths:
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/babel-source-5.8.35/lib
+  /Users/djlalala/dev/jiayongfu/app/assets/config
+  /Users/djlalala/dev/jiayongfu/app/assets/images
+  /Users/djlalala/dev/jiayongfu/app/assets/javascripts
+  /Users/djlalala/dev/jiayongfu/app/assets/stylesheets
+  /Users/djlalala/dev/jiayongfu/vendor/assets/javascripts
+  /Users/djlalala/dev/jiayongfu/vendor/assets/stylesheets
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/simditor-2.3.6/vendor/assets/images
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/simditor-2.3.6/vendor/assets/javascripts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/simditor-2.3.6/vendor/assets/stylesheets
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/assets/images
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/assets/javascripts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/assets/stylesheets
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/vendor/assets/javascripts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/vendor/assets/stylesheets
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/formtastic-3.1.5/app/assets/stylesheets
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/jquery-rails-4.3.1/vendor/assets/javascripts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/actioncable-5.1.3/lib/assets/compiled
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/actionview-5.1.3/lib/assets/compiled
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/djlalala/dev/jiayongfu/node_modules
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.3.7/assets/stylesheets
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.3.7/assets/javascripts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.3.7/assets/fonts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.3.7/assets/images
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.3.7/assets/stylesheets):
+    4:     <title>Jiayongfu</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/active_admin.scss:16
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__4122453880075256453_70202682252120'
+Started GET "/" for 127.0.0.1 at 2017-08-29 16:37:14 +0800
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: font-awesome.
+Load paths:
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/babel-source-5.8.35/lib
+  /Users/djlalala/dev/jiayongfu/app/assets/config
+  /Users/djlalala/dev/jiayongfu/app/assets/images
+  /Users/djlalala/dev/jiayongfu/app/assets/javascripts
+  /Users/djlalala/dev/jiayongfu/app/assets/stylesheets
+  /Users/djlalala/dev/jiayongfu/vendor/assets/javascripts
+  /Users/djlalala/dev/jiayongfu/vendor/assets/stylesheets
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/simditor-2.3.6/vendor/assets/images
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/simditor-2.3.6/vendor/assets/javascripts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/simditor-2.3.6/vendor/assets/stylesheets
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/assets/images
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/assets/javascripts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/assets/stylesheets
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/vendor/assets/javascripts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/vendor/assets/stylesheets
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/formtastic-3.1.5/app/assets/stylesheets
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/jquery-rails-4.3.1/vendor/assets/javascripts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/actioncable-5.1.3/lib/assets/compiled
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/actionview-5.1.3/lib/assets/compiled
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/djlalala/dev/jiayongfu/node_modules
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.3.7/assets/stylesheets
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.3.7/assets/javascripts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.3.7/assets/fonts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.3.7/assets/images
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.3.7/assets/stylesheets):
+    4:     <title>Jiayongfu</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/active_admin.scss:16
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__4122453880075256453_70202743033400'
+Started GET "/" for 127.0.0.1 at 2017-08-29 16:37:21 +0800
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 42ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: font-awesome.
+Load paths:
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/babel-source-5.8.35/lib
+  /Users/djlalala/dev/jiayongfu/app/assets/config
+  /Users/djlalala/dev/jiayongfu/app/assets/images
+  /Users/djlalala/dev/jiayongfu/app/assets/javascripts
+  /Users/djlalala/dev/jiayongfu/app/assets/stylesheets
+  /Users/djlalala/dev/jiayongfu/vendor/assets/javascripts
+  /Users/djlalala/dev/jiayongfu/vendor/assets/stylesheets
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/simditor-2.3.6/vendor/assets/images
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/simditor-2.3.6/vendor/assets/javascripts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/simditor-2.3.6/vendor/assets/stylesheets
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/assets/images
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/assets/javascripts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/assets/stylesheets
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/vendor/assets/javascripts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/vendor/assets/stylesheets
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/formtastic-3.1.5/app/assets/stylesheets
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/jquery-rails-4.3.1/vendor/assets/javascripts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/actioncable-5.1.3/lib/assets/compiled
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/actionview-5.1.3/lib/assets/compiled
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/djlalala/dev/jiayongfu/node_modules
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.3.7/assets/stylesheets
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.3.7/assets/javascripts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.3.7/assets/fonts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.3.7/assets/images
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.3.7/assets/stylesheets):
+    4:     <title>Jiayongfu</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/active_admin.scss:16
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__4122453880075256453_70202672160140'
+Started GET "/" for 127.0.0.1 at 2017-08-29 16:37:22 +0800
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: font-awesome.
+Load paths:
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/babel-source-5.8.35/lib
+  /Users/djlalala/dev/jiayongfu/app/assets/config
+  /Users/djlalala/dev/jiayongfu/app/assets/images
+  /Users/djlalala/dev/jiayongfu/app/assets/javascripts
+  /Users/djlalala/dev/jiayongfu/app/assets/stylesheets
+  /Users/djlalala/dev/jiayongfu/vendor/assets/javascripts
+  /Users/djlalala/dev/jiayongfu/vendor/assets/stylesheets
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/simditor-2.3.6/vendor/assets/images
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/simditor-2.3.6/vendor/assets/javascripts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/simditor-2.3.6/vendor/assets/stylesheets
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/assets/images
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/assets/javascripts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/assets/stylesheets
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/vendor/assets/javascripts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/vendor/assets/stylesheets
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/formtastic-3.1.5/app/assets/stylesheets
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/jquery-rails-4.3.1/vendor/assets/javascripts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/actioncable-5.1.3/lib/assets/compiled
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/actionview-5.1.3/lib/assets/compiled
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/djlalala/dev/jiayongfu/node_modules
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.3.7/assets/stylesheets
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.3.7/assets/javascripts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.3.7/assets/fonts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.3.7/assets/images
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.3.7/assets/stylesheets):
+    4:     <title>Jiayongfu</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/active_admin.scss:16
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__4122453880075256453_70202742017420'
+Started GET "/" for 127.0.0.1 at 2017-08-29 16:37:55 +0800
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2053ms (Views: 2051.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-29 16:40:43 +0800
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 437ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `page_name' for #<#<Class:0x007fb2abed2758>:0x007fb2b1546cd8>
+Did you mean?  paginate
+               Pathname):
+     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:   </head>
+    10: 
+    11:   <body class="<%= page_name %>">
+    12:     <%= yield %>
+    13:   </body>
+    14: </html>
+  
+app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__4122453880075256453_70202727883580'
+Started GET "/" for 127.0.0.1 at 2017-08-29 16:42:20 +0800
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 45ms (Views: 42.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-29 16:43:21 +0800
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 85ms (Views: 83.4ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-08-29 16:43:35 +0800
+Processing by Admin::DashboardController#index as HTML
+Completed 401 Unauthorized in 8ms
+
+
+Started GET "/admin/login" for 127.0.0.1 at 2017-08-29 16:43:35 +0800
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/shared/_links.erb (1.6ms)
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (47.2ms)
+Completed 500 Internal Server Error in 124ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (The asset "active_admin.js" is not present in the asset pipeline.):
+     7: 
+     8:   <%= stylesheet_link_tag 'active_admin.css', media: 'screen' %>
+     9:   <%= stylesheet_link_tag 'active_admin/print.css', media: 'print' %>
+    10:   <%= javascript_include_tag 'active_admin.js' %>
+    11: 
+    12:   <%= favicon_link_tag ActiveAdmin.application.favicon if ActiveAdmin.application.favicon %>
+    13: 
+  
+sprockets-rails (3.2.0) lib/sprockets/rails/helper.rb:83:in `compute_asset_path'
+actionview (5.1.3) lib/action_view/helpers/asset_url_helper.rb:198:in `asset_path'
+actionview (5.1.3) lib/action_view/helpers/asset_url_helper.rb:316:in `javascript_path'
+actionview (5.1.3) lib/action_view/helpers/asset_tag_helper.rb:80:in `block in javascript_include_tag'
+actionview (5.1.3) lib/action_view/helpers/asset_tag_helper.rb:78:in `map'
+actionview (5.1.3) lib/action_view/helpers/asset_tag_helper.rb:78:in `javascript_include_tag'
+sprockets-rails (3.2.0) lib/sprockets/rails/helper.rb:150:in `block in javascript_include_tag'
+sprockets-rails (3.2.0) lib/sprockets/rails/helper.rb:140:in `map'
+sprockets-rails (3.2.0) lib/sprockets/rails/helper.rb:140:in `javascript_include_tag'
+/Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/layouts/active_admin_logged_out.html.erb:10:in `___sers_djlalala__rvm_gems_ruby_______bundler_gems_activeadmin_______ae_fea_app_views_layouts_active_admin_logged_out_html_erb__3851111969853579460_70202672105340'
+actionview (5.1.3) lib/action_view/template.rb:157:in `block in render'
+activesupport (5.1.3) lib/active_support/notifications.rb:168:in `instrument'
+actionview (5.1.3) lib/action_view/template.rb:352:in `instrument_render_template'
+actionview (5.1.3) lib/action_view/template.rb:155:in `render'
+actionview (5.1.3) lib/action_view/renderer/template_renderer.rb:64:in `render_with_layout'
+actionview (5.1.3) lib/action_view/renderer/template_renderer.rb:50:in `render_template'
+actionview (5.1.3) lib/action_view/renderer/template_renderer.rb:14:in `render'
+actionview (5.1.3) lib/action_view/renderer/renderer.rb:42:in `render_template'
+actionview (5.1.3) lib/action_view/renderer/renderer.rb:23:in `render'
+actionview (5.1.3) lib/action_view/rendering.rb:103:in `_render_template'
+actionpack (5.1.3) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+actionview (5.1.3) lib/action_view/rendering.rb:83:in `render_to_body'
+actionpack (5.1.3) lib/action_controller/metal/rendering.rb:52:in `render_to_body'
+actionpack (5.1.3) lib/action_controller/metal/renderers.rb:141:in `render_to_body'
+actionpack (5.1.3) lib/abstract_controller/rendering.rb:24:in `render'
+actionpack (5.1.3) lib/action_controller/metal/rendering.rb:36:in `render'
+actionpack (5.1.3) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+activesupport (5.1.3) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+/Users/djlalala/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/benchmark.rb:308:in `realtime'
+activesupport (5.1.3) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+actionpack (5.1.3) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+actionpack (5.1.3) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+activerecord (5.1.3) lib/active_record/railties/controller_runtime.rb:29:in `cleanup_view_runtime'
+actionpack (5.1.3) lib/action_controller/metal/instrumentation.rb:43:in `render'
+responders (2.4.0) lib/action_controller/responder.rb:238:in `default_render'
+responders (2.4.0) lib/action_controller/responder.rb:170:in `to_html'
+responders (2.4.0) lib/action_controller/responder.rb:163:in `respond'
+responders (2.4.0) lib/action_controller/responder.rb:156:in `call'
+responders (2.4.0) lib/action_controller/respond_with.rb:211:in `respond_with'
+devise (4.3.0) app/controllers/devise/sessions_controller.rb:12:in `new'
+actionpack (5.1.3) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.3) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.3) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.3) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.3) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.3) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.3) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.3) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.3) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.3) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.3) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.3) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.3) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.3) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.3) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.3) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.3) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.3) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.3) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.3) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.3) lib/action_dispatch/routing/mapper.rb:16:in `block in <class:Constraints>'
+actionpack (5.1.3) lib/action_dispatch/routing/mapper.rb:46:in `serve'
+actionpack (5.1.3) lib/action_dispatch/journey/router.rb:46:in `block in serve'
+actionpack (5.1.3) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.3) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+warden (1.2.7) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.7) lib/warden/manager.rb:35:in `catch'
+warden (1.2.7) lib/warden/manager.rb:35:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.3) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.3) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.3) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/admin/login" for 127.0.0.1 at 2017-08-29 16:45:07 +0800
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/shared/_links.erb (1.4ms)
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (18.7ms)
+Completed 500 Internal Server Error in 49ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'china_city/jquery.china_city' with type 'application/javascript'
+Checked in these paths: 
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/babel-source-5.8.35/lib
+  /Users/djlalala/dev/jiayongfu/app/assets/config
+  /Users/djlalala/dev/jiayongfu/app/assets/images
+  /Users/djlalala/dev/jiayongfu/app/assets/javascripts
+  /Users/djlalala/dev/jiayongfu/app/assets/stylesheets
+  /Users/djlalala/dev/jiayongfu/vendor/assets/javascripts
+  /Users/djlalala/dev/jiayongfu/vendor/assets/stylesheets
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/simditor-2.3.6/vendor/assets/images
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/simditor-2.3.6/vendor/assets/javascripts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/simditor-2.3.6/vendor/assets/stylesheets
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/assets/images
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/assets/javascripts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/assets/stylesheets
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/vendor/assets/javascripts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/vendor/assets/stylesheets
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/formtastic-3.1.5/app/assets/stylesheets
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/jquery-rails-4.3.1/vendor/assets/javascripts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/actioncable-5.1.3/lib/assets/compiled
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/actionview-5.1.3/lib/assets/compiled
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/djlalala/dev/jiayongfu/node_modules
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.3.7/assets/stylesheets
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.3.7/assets/javascripts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.3.7/assets/fonts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.3.7/assets/images):
+     7: 
+     8:   <%= stylesheet_link_tag 'active_admin.css', media: 'screen' %>
+     9:   <%= stylesheet_link_tag 'active_admin/print.css', media: 'print' %>
+    10:   <%= javascript_include_tag 'active_admin.js' %>
+    11: 
+    12:   <%= favicon_link_tag ActiveAdmin.application.favicon if ActiveAdmin.application.favicon %>
+    13: 
+  
+app/assets/javascripts/active_admin.js:2
+Started GET "/admin/login" for 127.0.0.1 at 2017-08-29 16:45:29 +0800
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/shared/_links.erb (1.2ms)
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (20.5ms)
+Completed 500 Internal Server Error in 50ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'config' with type 'application/javascript'
+Checked in these paths: 
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/babel-source-5.8.35/lib
+  /Users/djlalala/dev/jiayongfu/app/assets/config
+  /Users/djlalala/dev/jiayongfu/app/assets/images
+  /Users/djlalala/dev/jiayongfu/app/assets/javascripts
+  /Users/djlalala/dev/jiayongfu/app/assets/stylesheets
+  /Users/djlalala/dev/jiayongfu/vendor/assets/javascripts
+  /Users/djlalala/dev/jiayongfu/vendor/assets/stylesheets
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/simditor-2.3.6/vendor/assets/images
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/simditor-2.3.6/vendor/assets/javascripts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/simditor-2.3.6/vendor/assets/stylesheets
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/assets/images
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/assets/javascripts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/assets/stylesheets
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/vendor/assets/javascripts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/vendor/assets/stylesheets
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/formtastic-3.1.5/app/assets/stylesheets
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/jquery-rails-4.3.1/vendor/assets/javascripts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/actioncable-5.1.3/lib/assets/compiled
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/actionview-5.1.3/lib/assets/compiled
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/turbolinks-source-5.0.3/lib/assets/javascripts
+  /Users/djlalala/dev/jiayongfu/node_modules
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.3.7/assets/stylesheets
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.3.7/assets/javascripts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.3.7/assets/fonts
+  /Users/djlalala/.rvm/gems/ruby-2.3.0/gems/bootstrap-sass-3.3.7/assets/images):
+     7: 
+     8:   <%= stylesheet_link_tag 'active_admin.css', media: 'screen' %>
+     9:   <%= stylesheet_link_tag 'active_admin/print.css', media: 'print' %>
+    10:   <%= javascript_include_tag 'active_admin.js' %>
+    11: 
+    12:   <%= favicon_link_tag ActiveAdmin.application.favicon if ActiveAdmin.application.favicon %>
+    13: 
+  
+app/assets/javascripts/active_admin.js:6
+Started GET "/admin/login" for 127.0.0.1 at 2017-08-29 16:46:34 +0800
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/shared/_links.erb (0.9ms)
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (18.7ms)
+Completed 200 OK in 9120ms (Views: 9118.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/login" for 127.0.0.1 at 2017-08-29 16:46:47 +0800
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yhtOmqGhnG6R56NkaL2BC9d2gSNfuzPCgtXd9+AOyI3IrxOxRcHwPt90sH+1XsQAI/qETM6xFNdXUy4kgfwSiA==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (0.7ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.7ms)
+
+
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yhtOmqGhnG6R56NkaL2BC9d2gSNfuzPCgtXd9+AOyI3IrxOxRcHwPt90sH+1XsQAI/qETM6xFNdXUy4kgfwSiA==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/shared/_links.erb (1.0ms)
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (27.3ms)
+Completed 200 OK in 338ms (Views: 191.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/login" for 127.0.0.1 at 2017-08-29 16:46:52 +0800
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"malNi9+OOrEBHGw1eEM2HxeZVYn0APaLV6fY3iV58OSbHRCgO+5W4U+Pfy6loHMU4xVQ5mUK0Z6CISsNRIsq4Q==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.2ms)
+
+
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"malNi9+OOrEBHGw1eEM2HxeZVYn0APaLV6fY3iV58OSbHRCgO+5W4U+Pfy6loHMU4xVQ5mUK0Z6CISsNRIsq4Q==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/shared/_links.erb (1.2ms)
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (18.4ms)
+Completed 200 OK in 264ms (Views: 128.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/login" for 127.0.0.1 at 2017-08-29 16:54:20 +0800
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vJHaJVjcFX8bEqTs9Jh42RX9SjFbOcc8jPvZ9odHp6S+JYcOvLx5L1WBt/cpez3S4XFPXsoz4ClZfSol5rV9oQ==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 4ms (ActiveRecord: 0.3ms)
+
+
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vJHaJVjcFX8bEqTs9Jh42RX9SjFbOcc8jPvZ9odHp6S+JYcOvLx5L1WBt/cpez3S4XFPXsoz4ClZfSol5rV9oQ==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Login"}
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/shared/_links.erb (1.3ms)
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (21.3ms)
+Completed 200 OK in 273ms (Views: 136.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/login" for 127.0.0.1 at 2017-08-29 16:54:27 +0800
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cJ+Drbt/KYumoZC7Bre6FqnOwFAvV06yyH826MN53T5yK96GXx9F2+gyg6DbVP8dXULFP75daacd+cU7oosHOw==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.3ms)
+
+
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cJ+Drbt/KYumoZC7Bre6FqnOwFAvV06yyH826MN53T5yK96GXx9F2+gyg6DbVP8dXULFP75daacd+cU7oosHOw==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Login"}
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/shared/_links.erb (1.0ms)
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (21.5ms)
+Completed 200 OK in 282ms (Views: 146.2ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateOffers (20170829090320)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "offers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "description" text, "age" varchar, "Salary" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170829090320"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_active_admin_comments_on_namespace' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_active_admin_comments_on_namespace' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_active_admin_comments_on_author_type_and_author_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_active_admin_comments_on_author_type_and_author_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_active_admin_comments_on_resource_type_and_resource_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_active_admin_comments_on_resource_type_and_resource_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_admin_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_admin_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_admin_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_admin_users_on_email' AND type='index'
+[0m
+Started POST "/admin/login" for 127.0.0.1 at 2017-08-29 17:11:35 +0800
+  
+NameError (uninitialized constant MokeShop):
+  
+app/admin/offer.rb:1:in `<top (required)>'
+config/routes.rb:3:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started POST "/admin/login" for 127.0.0.1 at 2017-08-29 17:11:48 +0800
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cJ+Drbt/KYumoZC7Bre6FqnOwFAvV06yyH826MN53T5yK96GXx9F2+gyg6DbVP8dXULFP75daacd+cU7oosHOw==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 5ms (ActiveRecord: 1.2ms)
+
+
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cJ+Drbt/KYumoZC7Bre6FqnOwFAvV06yyH826MN53T5yK96GXx9F2+gyg6DbVP8dXULFP75daacd+cU7oosHOw==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Login"}
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/shared/_links.erb (1.7ms)
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (19.4ms)
+Completed 200 OK in 323ms (Views: 178.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/login" for 127.0.0.1 at 2017-08-29 17:11:51 +0800
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wTaOh0zWKQRyi2+M3y00gNEYzMKZa+v/LIsb56DId6nDgtOsqLZFVDwYfJcCznGLJZTJrQhhzOr5Deg0wTqtrA==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.4ms)
+
+
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wTaOh0zWKQRyi2+M3y00gNEYzMKZa+v/LIsb56DId6nDgtOsqLZFVDwYfJcCznGLJZTJrQhhzOr5Deg0wTqtrA==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Login"}
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/shared/_links.erb (0.9ms)
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (17.9ms)
+Completed 200 OK in 277ms (Views: 138.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/login" for 127.0.0.1 at 2017-08-29 17:11:53 +0800
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TSmu4p9+mfNkdtPOeDJmc+vKprkWoSwlbWinEZeik1lPnfPJex71oyrlwNWl0SN4H0aj1oerCzC47lTC9lBJXA==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.3ms)
+
+
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TSmu4p9+mfNkdtPOeDJmc+vKprkWoSwlbWinEZeik1lPnfPJex71oyrlwNWl0SN4H0aj1oerCzC47lTC9lBJXA==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Login"}
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/shared/_links.erb (1.1ms)
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (19.6ms)
+Completed 200 OK in 280ms (Views: 141.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-08-29 17:12:01 +0800
+Processing by Admin::DashboardController#index as HTML
+Completed 401 Unauthorized in 11ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/login" for 127.0.0.1 at 2017-08-29 17:12:01 +0800
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/shared/_links.erb (1.0ms)
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (24.2ms)
+Completed 200 OK in 153ms (Views: 151.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/login" for 127.0.0.1 at 2017-08-29 17:12:49 +0800
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/shared/_links.erb (1.2ms)
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (36.8ms)
+Completed 200 OK in 167ms (Views: 165.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/login" for 127.0.0.1 at 2017-08-29 17:12:51 +0800
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/shared/_links.erb (3.1ms)
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (32.6ms)
+Completed 200 OK in 160ms (Views: 158.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/login" for 127.0.0.1 at 2017-08-29 17:16:22 +0800
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/shared/_links.erb (1.2ms)
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (17.0ms)
+Completed 200 OK in 160ms (Views: 145.3ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/admin/login" for 127.0.0.1 at 2017-08-29 17:16:24 +0800
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RZ1DSTuB2aX7PwrhEkWXGKBzYIsZA46WU53lQN572j9HKR5i3+G19bWsGfrPptITVP9l5IgJqYOGGxaTv4kAOg==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (1.3ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 6ms (ActiveRecord: 1.3ms)
+
+
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RZ1DSTuB2aX7PwrhEkWXGKBzYIsZA46WU53lQN572j9HKR5i3+G19bWsGfrPptITVP9l5IgJqYOGGxaTv4kAOg==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/shared/_links.erb (1.0ms)
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (18.0ms)
+Completed 200 OK in 265ms (Views: 126.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/login" for 127.0.0.1 at 2017-08-29 17:16:34 +0800
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yD9hIX/mHL98jixRxNHx1fiaz1tSpCh9taQN+uWbF1/KizwKm4Zw7zIdP0oZMrTeDBbKNMOuD2hgIv4phGnNWg==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.3ms)
+
+
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yD9hIX/mHL98jixRxNHx1fiaz1tSpCh9taQN+uWbF1/KizwKm4Zw7zIdP0oZMrTeDBbKNMOuD2hgIv4phGnNWg==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/shared/_links.erb (1.3ms)
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (17.8ms)
+Completed 200 OK in 285ms (Views: 146.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/login" for 127.0.0.1 at 2017-08-29 17:16:40 +0800
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KTL+UD3Y7qhMHFSWScQXIKO39riinU08KrutOvm6AmcrhqN72biC+AKPR42UJ1IrVzvz1zOXain/PV7pmEjYYg==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.3ms)
+
+
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KTL+UD3Y7qhMHFSWScQXIKO39riinU08KrutOvm6AmcrhqN72biC+AKPR42UJ1IrVzvz1zOXain/PV7pmEjYYg==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/shared/_links.erb (0.9ms)
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (17.1ms)
+Completed 200 OK in 296ms (Views: 159.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/login" for 127.0.0.1 at 2017-08-29 17:16:50 +0800
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I/yub+f55if2YdP2W2z1W1CiQDPjyqsOgDu56aVGOeUhSPNEA5mKd7jywO2Gj7BQpC5FXHLAjBtVvUo6xLTj4A==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.2ms)
+
+
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I/yub+f55if2YdP2W2z1W1CiQDPjyqsOgDu56aVGOeUhSPNEA5mKd7jywO2Gj7BQpC5FXHLAjBtVvUo6xLTj4A==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/shared/_links.erb (1.4ms)
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (24.3ms)
+Completed 200 OK in 306ms (Views: 159.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/login" for 127.0.0.1 at 2017-08-29 17:22:52 +0800
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I/yub+f55if2YdP2W2z1W1CiQDPjyqsOgDu56aVGOeUhSPNEA5mKd7jywO2Gj7BQpC5FXHLAjBtVvUo6xLTj4A==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.3ms)
+
+
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I/yub+f55if2YdP2W2z1W1CiQDPjyqsOgDu56aVGOeUhSPNEA5mKd7jywO2Gj7BQpC5FXHLAjBtVvUo6xLTj4A==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/shared/_links.erb (1.2ms)
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (21.1ms)
+Completed 200 OK in 303ms (Views: 163.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-29 17:22:57 +0800
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 276ms (Views: 274.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-08-29 17:23:01 +0800
+Processing by Admin::DashboardController#index as HTML
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/login" for 127.0.0.1 at 2017-08-29 17:23:01 +0800
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/shared/_links.erb (1.6ms)
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (18.0ms)
+Completed 200 OK in 135ms (Views: 134.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/login" for 127.0.0.1 at 2017-08-29 17:23:03 +0800
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aQy9OPjFYDz/gGdnXrvwajjugCIN9wiDoyGewb6Ul9JruOATHKUMbLETdHyDWLVhzGKFTZz9L5Z2p20S32ZN1w==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.2ms)
+
+
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aQy9OPjFYDz/gGdnXrvwajjugCIN9wiDoyGewb6Ul9JruOATHKUMbLETdHyDWLVhzGKFTZz9L5Z2p20S32ZN1w==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/shared/_links.erb (1.4ms)
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (16.3ms)
+Completed 200 OK in 276ms (Views: 142.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/login" for 127.0.0.1 at 2017-08-29 17:23:05 +0800
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eEtqNMuJscHzVEa/KP2W5AIaBAgQU9Au0qE8SBghoXR6/zcfL+ndkb3HVaT1HtPv9pYBZ4FZ9zsHJ8+bedN7cQ==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.4ms)
+
+
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eEtqNMuJscHzVEa/KP2W5AIaBAgQU9Au0qE8SBghoXR6/zcfL+ndkb3HVaT1HtPv9pYBZ4FZ9zsHJ8+bedN7cQ==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/shared/_links.erb (1.3ms)
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (18.6ms)
+Completed 200 OK in 263ms (Views: 126.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/login" for 127.0.0.1 at 2017-08-29 17:23:06 +0800
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8wVKm9ZzaJahqVimtokLOA/uJEqL7ebadfkvl7mg35fxsRewMhMExu86S71rak4z+2IhJRrnwc+gf9xE2FIFkg==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.3ms)
+
+
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8wVKm9ZzaJahqVimtokLOA/uJEqL7ebadfkvl7mg35fxsRewMhMExu86S71rak4z+2IhJRrnwc+gf9xE2FIFkg==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/shared/_links.erb (1.1ms)
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (19.5ms)
+Completed 200 OK in 294ms (Views: 159.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/offer" for 127.0.0.1 at 2017-08-29 17:23:13 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/admin/offer"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/admin/offers" for 127.0.0.1 at 2017-08-29 17:23:28 +0800
+Processing by Admin::OffersController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/login" for 127.0.0.1 at 2017-08-29 17:23:28 +0800
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/shared/_links.erb (1.1ms)
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (16.7ms)
+Completed 200 OK in 131ms (Views: 129.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/offers" for 127.0.0.1 at 2017-08-29 17:23:40 +0800
+Processing by Admin::OffersController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/login" for 127.0.0.1 at 2017-08-29 17:23:40 +0800
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/shared/_links.erb (1.0ms)
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (26.4ms)
+Completed 200 OK in 145ms (Views: 144.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/login" for 127.0.0.1 at 2017-08-29 17:24:44 +0800
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"slF1f/Q8v0L4V3k5jVc0mTj+H5RJ5933vKLVqj2Q6xmw5ShUEFzTErbEaiJQtHGSzHIa+9jt+uJpJCZ5XGIxHA==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.2ms)
+
+
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"slF1f/Q8v0L4V3k5jVc0mTj+H5RJ5933vKLVqj2Q6xmw5ShUEFzTErbEaiJQtHGSzHIa+9jt+uJpJCZ5XGIxHA==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/shared/_links.erb (0.9ms)
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (16.1ms)
+Completed 200 OK in 272ms (Views: 134.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/login" for 127.0.0.1 at 2017-08-29 17:24:45 +0800
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DJKZGs2ZDC7HRgKfteuQCySbBVXJq2UoZ1Quw8zOq9oOJsQxKflgfonVEYRoCNUA0BcAOlihQj2y0t0QrTxx3w==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.2ms)
+
+
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DJKZGs2ZDC7HRgKfteuQCySbBVXJq2UoZ1Quw8zOq9oOJsQxKflgfonVEYRoCNUA0BcAOlihQj2y0t0QrTxx3w==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/shared/_links.erb (1.0ms)
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (17.5ms)
+Completed 200 OK in 277ms (Views: 139.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/login" for 127.0.0.1 at 2017-08-29 17:24:46 +0800
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"J8p81zmDCDoxoHLBQalCEnV3s5nU84RrwMsPiiY21OwlfiH83eNkan8zYdqcSgcZgfu29kX5o34VTfxZR8QO6Q==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.2ms)
+
+
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"J8p81zmDCDoxoHLBQalCEnV3s5nU84RrwMsPiiY21OwlfiH83eNkan8zYdqcSgcZgfu29kX5o34VTfxZR8QO6Q==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/shared/_links.erb (0.9ms)
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (18.0ms)
+Completed 200 OK in 288ms (Views: 150.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/login" for 127.0.0.1 at 2017-08-29 17:24:47 +0800
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VpAWZKOHd4WUKsrhxDHqedt5tnIbb8ahBEDDCQjVaPRUJEtPR+cb1dq52foZ0q9yL/WzHYpl4bTRxjDaaSey8Q==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 4ms (ActiveRecord: 0.3ms)
+
+
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VpAWZKOHd4WUKsrhxDHqedt5tnIbb8ahBEDDCQjVaPRUJEtPR+cb1dq52foZ0q9yL/WzHYpl4bTRxjDaaSey8Q==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/shared/_links.erb (0.9ms)
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (16.5ms)
+Completed 200 OK in 278ms (Views: 139.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/login" for 127.0.0.1 at 2017-08-29 17:25:22 +0800
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"70d9tCaxvnIeYJi2yGDBtwC5/s/uYHSL3yhzitNenJ/t8yCfwtHSIlDzi60Vg4S89DX7oH9qU54KroBZsqxGmg==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 4ms (ActiveRecord: 0.5ms)
+
+
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"70d9tCaxvnIeYJi2yGDBtwC5/s/uYHSL3yhzitNenJ/t8yCfwtHSIlDzi60Vg4S89DX7oH9qU54KroBZsqxGmg==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/shared/_links.erb (0.9ms)
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (15.6ms)
+Completed 200 OK in 275ms (Views: 136.8ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAdminUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "admin_users" WHERE "admin_users"."email" = ? LIMIT ?[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+  [1m[35mSQL (1.6ms)[0m  [1m[32mINSERT INTO "admin_users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "admin@example.com"], ["encrypted_password", "$2a$11$n.6hupU8XguB7dmPFwvOleST6/Skf4RtNSFEmEtweIj3aLEXoU0.G"], ["created_at", "2017-08-29 09:27:29.938564"], ["updated_at", "2017-08-29 09:27:29.938564"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+Started POST "/admin/login" for 127.0.0.1 at 2017-08-29 17:27:47 +0800
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RjpdUa+Y8EHfX5hjlX6zRaO0h187yw6Q8FiROVC/luNEjgB6S/icEZHMi3hInfZOVziCMKrBKYUl3mLqMU1M5g==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "admin_users" SET "remember_created_at" = ?, "updated_at" = ? WHERE "admin_users"."id" = ?[0m  [["remember_created_at", "2017-08-29 09:27:47.535026"], ["updated_at", "2017-08-29 09:27:47.536080"], ["id", 1]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "admin_users" SET "sign_in_count" = ?, "current_sign_in_at" = ?, "last_sign_in_at" = ?, "current_sign_in_ip" = ?, "last_sign_in_ip" = ?, "updated_at" = ? WHERE "admin_users"."id" = ?[0m  [["sign_in_count", 1], ["current_sign_in_at", "2017-08-29 09:27:47.542353"], ["last_sign_in_at", "2017-08-29 09:27:47.542353"], ["current_sign_in_ip", "127.0.0.1"], ["last_sign_in_ip", "127.0.0.1"], ["updated_at", "2017-08-29 09:27:47.542938"], ["id", 1]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/admin/offers
+Completed 302 Found in 180ms (ActiveRecord: 3.2ms)
+
+
+Started GET "/admin/offers" for 127.0.0.1 at 2017-08-29 17:27:47 +0800
+Processing by Admin::OffersController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "offers" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb (177.5ms)
+Completed 200 OK in 197ms (Views: 186.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/admin/comments" for 127.0.0.1 at 2017-08-29 17:27:59 +0800
+Processing by Admin::CommentsController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."namespace" = ?[0m  [["namespace", "admin"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "active_admin_comments" WHERE "active_admin_comments"."namespace" = ? LIMIT ? OFFSET ?) subquery_for_count[0m  [["namespace", "admin"], ["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT DISTINCT "active_admin_comments"."resource_type" FROM "active_admin_comments" ORDER BY resource_type asc[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT DISTINCT "active_admin_comments"."author_type" FROM "active_admin_comments" ORDER BY author_type asc[0m
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb (163.6ms)
+Completed 200 OK in 177ms (Views: 172.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/admin/admin_users" for 127.0.0.1 at 2017-08-29 17:28:02 +0800
+Processing by Admin::AdminUsersController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "admin_users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" ORDER BY "admin_users"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb (174.3ms)
+Completed 200 OK in 186ms (Views: 182.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/admin/comments" for 127.0.0.1 at 2017-08-29 17:28:05 +0800
+Processing by Admin::CommentsController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."namespace" = ?[0m  [["namespace", "admin"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "active_admin_comments" WHERE "active_admin_comments"."namespace" = ? LIMIT ? OFFSET ?) subquery_for_count[0m  [["namespace", "admin"], ["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT DISTINCT "active_admin_comments"."resource_type" FROM "active_admin_comments" ORDER BY resource_type asc[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT DISTINCT "active_admin_comments"."author_type" FROM "active_admin_comments" ORDER BY author_type asc[0m
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb (185.1ms)
+Completed 200 OK in 198ms (Views: 192.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/admin/offers" for 127.0.0.1 at 2017-08-29 17:28:06 +0800
+Processing by Admin::OffersController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "offers" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb (185.1ms)
+Completed 200 OK in 197ms (Views: 193.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admin/offers/new" for 127.0.0.1 at 2017-08-29 17:28:08 +0800
+Processing by Admin::OffersController#new as HTML
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/new.html.arb
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/new.html.arb (140.9ms)
+Completed 200 OK in 162ms (Views: 151.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admin/admin_users" for 127.0.0.1 at 2017-08-29 17:34:00 +0800
+Processing by Admin::AdminUsersController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "admin_users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" ORDER BY "admin_users"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb (193.9ms)
+Completed 200 OK in 204ms (Views: 201.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/admin/admin_users" for 127.0.0.1 at 2017-08-29 17:34:03 +0800
+Processing by Admin::AdminUsersController#index as HTML
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "admin_users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" ORDER BY "admin_users"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb (145.9ms)
+Completed 200 OK in 159ms (Views: 155.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/admin/admin_users" for 127.0.0.1 at 2017-08-29 17:34:04 +0800
+Processing by Admin::AdminUsersController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "admin_users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" ORDER BY "admin_users"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb (178.0ms)
+Completed 200 OK in 190ms (Views: 186.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/admin/admin_users" for 127.0.0.1 at 2017-08-29 17:34:24 +0800
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Admin::AdminUsersController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "admin_users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" ORDER BY "admin_users"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb (836.8ms)
+Completed 500 Internal Server Error in 879ms (ActiveRecord: 1.3ms)
+
+
+  
+ActionView::Template::Error (translation missing: zh-CN.time.formats.long):
+    1: insert_tag renderer_for(:index)
+  
+app/admin/admin_users.rb:8:in `block (2 levels) in <top (required)>'
+Started GET "/admin/admin_users" for 127.0.0.1 at 2017-08-29 17:38:21 +0800
+Processing by Admin::AdminUsersController#index as HTML
+  [1m[36mAdminUser Load (0.1ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "admin_users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" ORDER BY "admin_users"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb (127.6ms)
+Completed 500 Internal Server Error in 155ms (ActiveRecord: 1.3ms)
+
+
+  
+ActionView::Template::Error (translation missing: zh-CN.time.formats.long):
+    1: insert_tag renderer_for(:index)
+  
+app/admin/admin_users.rb:8:in `block (2 levels) in <top (required)>'
+Started GET "/admin/admin_users" for 127.0.0.1 at 2017-08-29 17:44:58 +0800
+Processing by Admin::AdminUsersController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "admin_users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" ORDER BY "admin_users"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb (151.8ms)
+Completed 500 Internal Server Error in 162ms (ActiveRecord: 0.9ms)
+
+
+  
+ActionView::Template::Error (translation missing: zh-CN.time.formats.long):
+    1: insert_tag renderer_for(:index)
+  
+app/admin/admin_users.rb:8:in `block (2 levels) in <top (required)>'
+Started POST "/__web_console/repl_sessions/4e4a8582ad19f20ae6cc61ec26aabfb8/trace" for 127.0.0.1 at 2017-08-29 17:45:02 +0800
+Started POST "/__web_console/repl_sessions/4e4a8582ad19f20ae6cc61ec26aabfb8/trace" for 127.0.0.1 at 2017-08-29 17:45:04 +0800
+Started GET "/admin/admin_users" for 127.0.0.1 at 2017-08-29 17:49:02 +0800
+Processing by Admin::AdminUsersController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "admin_users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" ORDER BY "admin_users"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb (119.4ms)
+Completed 500 Internal Server Error in 131ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (translation missing: zh-CN.time.formats.long):
+    1: insert_tag renderer_for(:index)
+  
+app/admin/admin_users.rb:8:in `block (2 levels) in <top (required)>'
+Started GET "/admin/admin_users" for 127.0.0.1 at 2017-08-29 17:49:14 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Admin::AdminUsersController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "admin_users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" ORDER BY "admin_users"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb (753.8ms)
+Completed 500 Internal Server Error in 794ms (ActiveRecord: 1.5ms)
+
+
+  
+ActionView::Template::Error (translation missing: zh-CN.time.formats.long):
+    1: insert_tag renderer_for(:index)
+  
+app/admin/admin_users.rb:8:in `block (2 levels) in <top (required)>'
+Started GET "/admin/admin_users" for 127.0.0.1 at 2017-08-29 17:49:18 +0800
+Processing by Admin::AdminUsersController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "admin_users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" ORDER BY "admin_users"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb (140.9ms)
+Completed 500 Internal Server Error in 152ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (translation missing: zh-CN.time.formats.long):
+    1: insert_tag renderer_for(:index)
+  
+app/admin/admin_users.rb:8:in `block (2 levels) in <top (required)>'
+Started GET "/admin/admin_users" for 127.0.0.1 at 2017-08-29 17:51:14 +0800
+Processing by Admin::AdminUsersController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "admin_users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" ORDER BY "admin_users"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb (132.1ms)
+Completed 500 Internal Server Error in 143ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (translation missing: zh-CN.time.formats.long):
+    1: insert_tag renderer_for(:index)
+  
+app/admin/admin_users.rb:8:in `block (2 levels) in <top (required)>'
+Started GET "/admin/admin_users" for 127.0.0.1 at 2017-08-29 17:51:26 +0800
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Admin::AdminUsersController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "admin_users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" ORDER BY "admin_users"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb (732.8ms)
+Completed 500 Internal Server Error in 774ms (ActiveRecord: 1.6ms)
+
+
+  
+ActionView::Template::Error (translation missing: zh-CN.time.formats.long):
+    1: insert_tag renderer_for(:index)
+  
+app/admin/admin_users.rb:8:in `block (2 levels) in <top (required)>'
+Started GET "/admin/admin_users" for 127.0.0.1 at 2017-08-29 17:51:29 +0800
+Processing by Admin::AdminUsersController#index as HTML
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "admin_users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" ORDER BY "admin_users"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb (148.4ms)
+Completed 500 Internal Server Error in 161ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (translation missing: zh-CN.time.formats.long):
+    1: insert_tag renderer_for(:index)
+  
+app/admin/admin_users.rb:8:in `block (2 levels) in <top (required)>'
+Started GET "/admin/admin_users" for 127.0.0.1 at 2017-08-29 17:58:49 +0800
+Processing by Admin::AdminUsersController#index as HTML
+  [1m[36mAdminUser Load (0.1ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "admin_users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" ORDER BY "admin_users"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb (143.8ms)
+Completed 200 OK in 170ms (Views: 150.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/admin/admin_users" for 127.0.0.1 at 2017-08-29 17:59:42 +0800
+Processing by Admin::AdminUsersController#index as HTML
+  [1m[36mAdminUser Load (0.1ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "admin_users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" ORDER BY "admin_users"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb (153.4ms)
+Completed 200 OK in 181ms (Views: 160.1ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/admin/admin_users" for 127.0.0.1 at 2017-08-29 17:59:50 +0800
+Processing by Admin::AdminUsersController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "admin_users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" ORDER BY "admin_users"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb (158.1ms)
+Completed 200 OK in 169ms (Views: 165.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/admin/admin_users" for 127.0.0.1 at 2017-08-29 18:00:08 +0800
+Processing by Admin::AdminUsersController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "admin_users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" ORDER BY "admin_users"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb (145.2ms)
+Completed 200 OK in 155ms (Views: 152.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admin/admin_users" for 127.0.0.1 at 2017-08-29 18:01:30 +0800
+Processing by Admin::AdminUsersController#index as HTML
+  [1m[36mAdminUser Load (0.1ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "admin_users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mAdminUser Load (0.1ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" ORDER BY "admin_users"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb (137.7ms)
+Completed 200 OK in 164ms (Views: 144.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/admin/admin_users" for 127.0.0.1 at 2017-08-29 18:01:42 +0800
+Processing by Admin::AdminUsersController#index as HTML
+  [1m[36mAdminUser Load (0.1ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "admin_users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" ORDER BY "admin_users"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb (163.7ms)
+Completed 200 OK in 191ms (Views: 170.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/admin/admin_users" for 127.0.0.1 at 2017-08-29 18:01:47 +0800
+Processing by Admin::AdminUsersController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "admin_users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" ORDER BY "admin_users"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb (156.6ms)
+Completed 200 OK in 167ms (Views: 163.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/admin/admin_users" for 127.0.0.1 at 2017-08-29 18:01:48 +0800
+Processing by Admin::AdminUsersController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "admin_users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" ORDER BY "admin_users"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb (155.1ms)
+Completed 200 OK in 167ms (Views: 162.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/admin/admin_users" for 127.0.0.1 at 2017-08-29 18:01:49 +0800
+Processing by Admin::AdminUsersController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "admin_users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" ORDER BY "admin_users"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb (151.3ms)
+Completed 200 OK in 162ms (Views: 158.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/admin/admin_users" for 127.0.0.1 at 2017-08-29 18:01:50 +0800
+Processing by Admin::AdminUsersController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "admin_users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mAdminUser Load (0.1ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" ORDER BY "admin_users"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb (161.2ms)
+Completed 200 OK in 174ms (Views: 171.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/admin/admin_users" for 127.0.0.1 at 2017-08-29 18:01:57 +0800
+Processing by Admin::AdminUsersController#index as HTML
+  [1m[36mAdminUser Load (0.1ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "admin_users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" ORDER BY "admin_users"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb (170.8ms)
+Completed 200 OK in 198ms (Views: 178.0ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/admin/admin_users" for 127.0.0.1 at 2017-08-29 18:02:04 +0800
+Processing by Admin::AdminUsersController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "admin_users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" ORDER BY "admin_users"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/resource/index.html.arb (165.9ms)
+Completed 200 OK in 198ms (Views: 172.7ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-30 09:44:12 +0800
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 807ms (Views: 798.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-08-30 09:44:19 +0800
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (0.5ms)[0m  [1m[34mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "admin_users" SET "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "admin_users"."id" = ?[0m  [["current_sign_in_at", "2017-08-30 01:44:19.160135"], ["sign_in_count", 2], ["updated_at", "2017-08-30 01:44:19.161168"], ["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  Rendering /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/page/index.html.arb
+  Rendered /Users/djlalala/.rvm/gems/ruby-2.3.0/bundler/gems/activeadmin-175538ae9fea/app/views/active_admin/page/index.html.arb (133.3ms)
+Completed 200 OK in 164ms (Views: 136.8ms | ActiveRecord: 2.1ms)
+
+

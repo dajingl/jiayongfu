@@ -1,0 +1,71 @@
+.editable {
+  &[role='textbox'] {
+    display: inline-block;
+    padding-top: 1em;
+    padding-left: 1em;
+    width: calc(80% - 22px);
+    border: 1px solid #c9d0d6; //sass-lint:disable-line no-color-literals
+    border-radius: 3px;
+    background-color: #fff; //sass-lint:disable-line no-color-literals
+
+    ol {
+      padding-left: 1.5em;
+      list-style: decimal;
+    }
+
+    ul {
+      padding-left: 1.5em;
+      list-style: initial;
+    }
+  }
+}
+
+.medium-editor-action {
+  border-radius: initial;
+  background-image: none;
+}
+
+.medium-editor-insert-plugin {
+
+  .medium-editor-placeholder {
+    &::after {
+      padding-left: 1em;
+      color: #999; //sass-lint:disable-line no-color-literals
+    }
+  }
+
+  .medium-insert-buttons {
+
+    a {
+      color: #ddd; //sass-lint:disable-line no-color-literals
+    }
+
+    .medium-insert-buttons-show {
+      line-height: 25px;
+      text-shadow: none;
+      background: transparent;
+      box-shadow: none;
+    }
+
+    .medium-insert-buttons-addons {
+      li {
+        background: transparent;
+      }
+    }
+  }
+}
+
+button {
+  &.medium-editor-action {
+    &:not(.disabled) {
+      &:hover {  //sass-lint:disable-line nesting-depth
+        border-radius: initial;
+        background-image: none;
+      }
+    }
+  }
+}
+
+.image-upload-container {
+  display: inline-block;
+}

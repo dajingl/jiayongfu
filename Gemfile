@@ -19,6 +19,7 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem 'annotate'
 gem 'devise'
 gem 'activeadmin', github: 'activeadmin'
+gem 'simditor'
 
 
 group :development, :test do
