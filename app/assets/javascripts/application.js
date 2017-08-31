@@ -14,10 +14,6 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require bootstrap-sprockets
-//= require simditor
-//= require simditor/alignment_center
-//= require simditor/alignment_right
-//= require simditor/video
 //= require_directory ../../../vendor/assets/javascripts/common
 //= require_directory ../../../vendor/assets/javascripts/site
 //= require_directory ./shared

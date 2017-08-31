@@ -1,0 +1,32 @@
+.image-uploader {
+  .fileinput {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+
+  .preview {
+    width: 100%;
+    height: 100%;
+  }
+
+  .progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: none;
+    box-shadow: none;
+  }
+
+  .fileinput-button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+  }
+}

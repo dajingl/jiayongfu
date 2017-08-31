@@ -18,6 +18,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'annotate'
 gem 'devise'
+gem 'qiniu'
 gem 'activeadmin', github: 'activeadmin'
 gem 'simditor'
 

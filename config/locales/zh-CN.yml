@@ -38,8 +38,10 @@ zh-CN:
     models:
       admin: 首页
       admin_user: 管理员
-      offer: 招聘信息
+      offer:
+      goods:
     attributes:
+
       advert:
         advert_key: 封面图
         title: 标题

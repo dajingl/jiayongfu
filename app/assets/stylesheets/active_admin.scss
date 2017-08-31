@@ -1,21 +1,15 @@
-// SASS variable overrides must be declared before loading up Active Admin's styles.
-//
-// To view the variables that Active Admin provides, take a look at
-// `app/assets/stylesheets/active_admin/mixins/_variables.scss` in the
-// Active Admin source.
-//
-// For example, to change the sidebar width:
-// $sidebar-width: 242px;
-
+//= require simditor
 // Active Admin's got SASS!
 /*
 *= require_directory ../../../vendor/assets/stylesheets/admin
 */
 
-
+@import 'variables';
 @import "active_admin/mixins";
 @import "active_admin/base";
 @import "admin/medium_editor_override";
+@import "admin/goods";
+@import 'shared/rich_editor';
 
 // Overriding any non-variable SASS must be done after the fact.
 // For example, to change the default status-tag color:

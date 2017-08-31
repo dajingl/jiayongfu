@@ -1,4 +1,4 @@
-window.setupInfiniteScroll = function (listWrapperSelector, itemSelector, callback) {
+Jiayongfu.window.setupInfiniteScroll = function (listWrapperSelector, itemSelector, callback) {
 
     var $container = $(listWrapperSelector);
 
@@ -47,7 +47,7 @@ window.setupInfiniteScroll = function (listWrapperSelector, itemSelector, callba
 
 };
 
-window.setupInfiniteScroll.init = function (wrapSelector, itemSelector, callback) {
+Jiayongfu.window.setupInfiniteScroll.init = function (wrapSelector, itemSelector, callback) {
     if ($(wrapSelector).length > 0) {
         Moke.setupInfiniteScroll(wrapSelector, itemSelector, callback);
     }
@@ -55,6 +55,6 @@ window.setupInfiniteScroll.init = function (wrapSelector, itemSelector, callback
 
 $(document).on('turbolinks:load', function () {
 
-    window.setupInfiniteScroll.init('.gallery-works-show ul', '.gallery-works-show ul li');
+    Jiayongfu.window.setupInfiniteScroll.init('.gallery-works-show ul', '.gallery-works-show ul li');
 
 });
