@@ -21,6 +21,7 @@ gem 'devise'
 gem 'qiniu'
 gem 'activeadmin', github: 'activeadmin'
 gem 'simditor'
+gem 'active_link_to'
 
 
 group :development, :test do

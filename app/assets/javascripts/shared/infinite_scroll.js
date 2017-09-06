@@ -49,12 +49,12 @@ Jiayongfu.window.setupInfiniteScroll = function (listWrapperSelector, itemSelect
 
 Jiayongfu.window.setupInfiniteScroll.init = function (wrapSelector, itemSelector, callback) {
     if ($(wrapSelector).length > 0) {
-        Moke.setupInfiniteScroll(wrapSelector, itemSelector, callback);
+        Jiayongfu.setupInfiniteScroll(wrapSelector, itemSelector, callback);
     }
 };
 
 $(document).on('turbolinks:load', function () {
 
-    Jiayongfu.window.setupInfiniteScroll.init('.gallery-works-show ul', '.gallery-works-show ul li');
+    // Jiayongfu.window.setupInfiniteScroll.init('.gallery-works-show ul', '.gallery-works-show ul li');
 
 });

@@ -13,5 +13,4 @@
 //= require ./config
 //= require admin/init
 //= require shared/qiniu_file_input.js
-
 //= require ./init

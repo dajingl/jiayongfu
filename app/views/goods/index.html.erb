@@ -1,1 +1,14 @@
-llala
+<ul>
+  <% @Goods.each do |good| %>
+      <li class="follow-list">
+        <%= background_img_tag good.main_photo, placeholder_img: '', class: 'artist-icon', size: 60 %>
+        <h2><%= good.title %></h2>
+        <p>
+          <%= good.description %>
+        </p>
+        <div>
+          <%= good.description %>
+        </div>
+      </li>
+  <% end %>
+</ul>

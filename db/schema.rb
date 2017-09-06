@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170831014516) do
+ActiveRecord::Schema.define(version: 20170906060009) do
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string "namespace"
@@ -43,6 +43,18 @@ ActiveRecord::Schema.define(version: 20170831014516) do
     t.index ["reset_password_token"], name: "index_admin_users_on_reset_password_token", unique: true
   end
 
+  create_table "companies", force: :cascade do |t|
+    t.string "name"
+    t.text "Introduction"
+    t.string "logo"
+    t.string "address"
+    t.text "culture"
+    t.string "main"
+    t.string "qr_code"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "goods", force: :cascade do |t|
     t.string "title"
     t.text "description"
@@ -52,6 +64,7 @@ ActiveRecord::Schema.define(version: 20170831014516) do
     t.integer "state", default: 0
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.text "abstraction"
   end
 
   create_table "offers", force: :cascade do |t|
@@ -59,6 +72,14 @@ ActiveRecord::Schema.define(version: 20170831014516) do
     t.text "description"
     t.string "age"
     t.string "Salary"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "posters", force: :cascade do |t|
+    t.string "title"
+    t.string "main_photo"
+    t.integer "rank"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

@@ -1,13 +1,19 @@
-<nav class="main-nav navbar navbar-default navbar-static-top">
-  <div class="container">
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to '首页' %></li>
-        <li><%= link_to '企业动态' %></li>
-        <li><%= link_to '产品详情', goods_path %></li>
-        <li><%= link_to '招聘信息', offers_path %></li>
-        <li><%= link_to '联系我们' %></li>
+<div class="nav-wrap">
+  <div class="nav-top">
+    <div class="container nav-home">
+      <div class="logo-box">
+        <%= background_img_tag @company.logo, class: 'logo',size:'30' %>
+        <%= @company.name %>
+      </div>
+
+      <ul class=" navbar-right">
+        <li><%= active_link_to '首页', root_path, active: :exact %></li>
+        <li><%= active_link_to '企业动态', '',active: :exact %></li>
+        <li><%= active_link_to '产品详情', goods_path, active: :exact %></li>
+        <li><%= active_link_to '招聘信息', offers_path, active: :exact %></li>
+        <li><%= active_link_to '联系我们', '',active: :exact %></li>
       </ul>
-    </div><!--/.nav-collapse -->
+    </div>
   </div>
-</nav>
+</div>
+

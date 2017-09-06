@@ -1,0 +1,45 @@
+
+  <!-- Indicators -->
+<div class="banner-box">
+
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <% @posters.each_with_index do |poster, index| %>
+          <li data-target="#carousel-example-generic" data-slide-to= '<%= index %>' class="<%= 'active' if index==0 %>">
+            <a href="javascript:void(0)" onclick="return false;"></a>
+          </li>
+      <% end %>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <% @posters.each_with_index do |poster ,index| %>
+            <div class="item <%= 'active' if index==0 %>">
+              <%= background_img_tag poster.main_photo, class: 'banner-bg' %>
+
+              <div class="txt">
+                <div>
+
+                </div>
+                <%=  poster.title %>
+              </div>
+            </div>
+      <% end %>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+</div>
+
+
+

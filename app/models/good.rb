@@ -11,6 +11,7 @@
 #  state       :integer          default("show")
 #  created_at  :datetime         not null
 #  updated_at  :datetime         not null
+#  abstraction :text
 #
 
 class Good < ApplicationRecord

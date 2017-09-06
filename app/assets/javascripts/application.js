@@ -16,5 +16,7 @@
 //= require bootstrap-sprockets
 //= require_directory ../../../vendor/assets/javascripts/common
 //= require_directory ../../../vendor/assets/javascripts/site
+//= require ./config
+//= require ./init
 //= require_directory ./shared
 //= require_directory ./pages
