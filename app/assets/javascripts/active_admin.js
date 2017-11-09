@@ -1,6 +1,8 @@
 //= require active_admin/base
 
 
+
+
 //= require turbolinks
 //= require simditor
 //= require simditor/alignment_left
@@ -11,6 +13,6 @@
 //= require_directory ../../../vendor/assets/javascripts/common
 //= require_directory ../../../vendor/assets/javascripts/admin
 //= require ./config
-//= require admin/init
 //= require shared/qiniu_file_input.js
+//= require admin/init
 //= require ./init

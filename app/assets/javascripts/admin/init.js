@@ -1,4 +1,3 @@
-/*global MediumEditor:true*/
 
 window.jiayongfuAdmin = {};
 

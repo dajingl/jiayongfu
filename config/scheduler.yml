@@ -1,0 +1,3 @@
+SettlementJob:
+  cron: "*／1 * * * * *"
+  class: "SettlementJob"

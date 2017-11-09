@@ -5,4 +5,5 @@ Rails.application.routes.draw do
 
   resources :offers
   resources :goods
+  resource :about_us
 end

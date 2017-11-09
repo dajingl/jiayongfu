@@ -8,12 +8,12 @@ $(document).on('turbolinks:load', function () {
         if (windowH > htmlH || windowH === htmlH) {
             $footer.css('position', 'fixed');
         } else {
-            $footer.css('position', 'absolute');
+            $footer.css('position', 'relative');
         }
         if ($diff < 0) {
-            $footer.css('position', 'absolute');
+            $footer.css('position', 'relative');
         } else if ($diff > 0 && $diff < 198) {
-            $footer.css('position', 'absolute');
+            $footer.css('position', 'relative');
         }
     };
     footerFun();

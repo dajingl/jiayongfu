@@ -4,3 +4,11 @@
   background-position: center;
   background-size: cover;
 }
+
+.animated {
+  -ms-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+  -o-animation-duration: 3s;
+
+}

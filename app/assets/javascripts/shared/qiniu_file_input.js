@@ -26,7 +26,7 @@ Jiayongfu.initQiNiuFileInput = function (el, options) {
             }
         },
         done: function (e, data) {
-            var resizeUrl = Jiayongfu.cdnBaseUrl + data.result.key + Jiayongfu.previewMdSize;
+            var resizeUrl = 'http://ovlh8eznz.bkt.clouddn.com/' + data.result.key + '-jyf';
             var img;
             if (options && options.useBackgroundPreview) {
                 img = $('<span class="background-img-tag"/>').css('background-image', 'url(' + resizeUrl + ')');

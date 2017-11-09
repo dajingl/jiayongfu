@@ -3,15 +3,15 @@
 # Table name: goods
 #
 #  id          :integer          not null, primary key
-#  title       :string
-#  description :text
-#  body        :text
-#  main_photo  :string
+#  title       :string(255)
+#  description :text(65535)
+#  body        :text(65535)
+#  main_photo  :string(255)
 #  rank        :integer          default(0)
 #  state       :integer          default("show")
 #  created_at  :datetime         not null
 #  updated_at  :datetime         not null
-#  abstraction :text
+#  abstraction :text(65535)
 #
 
 class Good < ApplicationRecord
@@ -28,5 +28,13 @@ class Good < ApplicationRecord
     self.body = sanitized_content
 
     self.abstraction = sanitizer.sanitize(self.body, tags: []).slice(0, 150).strip unless self.abstraction.present?
+  end
+
+  def self.test
+    p '--------lalal'
+  end
+
+  def self.mytest
+    p '--------lalal'
   end
 end

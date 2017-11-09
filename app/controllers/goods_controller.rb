@@ -1,4 +1,4 @@
-class GoodsController < ApplicationController
+class GoodsController < HomeController
 
   def index
     @Goods = Good.all.order(created_at: :desc)

@@ -7,7 +7,7 @@ end
 
 
 gem 'rails', '~> 5.1.1'
-gem 'sqlite3'
+gem 'mysql2'
 gem 'puma', '~> 3.7'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -22,6 +22,9 @@ gem 'qiniu'
 gem 'activeadmin', github: 'activeadmin'
 gem 'simditor'
 gem 'active_link_to'
+gem 'sidekiq'
+gem 'sidekiq-cron'
+
 
 
 group :development, :test do

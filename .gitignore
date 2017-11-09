@@ -22,3 +22,14 @@
 
 .idea
 /db/schema.rb
+node_modules
+
+app/assets/webpack/*
+
+/vendor/bundle
+
+/data/cars
+/data/real_cars
+.DS_Store
+
+ci/db2qiniu/db_backup
