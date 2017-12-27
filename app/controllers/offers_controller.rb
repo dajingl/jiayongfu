@@ -1,7 +1,7 @@
 class OffersController < BaseController
 
   def index
-    @Offers = Offer.all.order(created_at: :desc)
+    @Offers = @company.offers.order(created_at: :desc)
   end
 
 

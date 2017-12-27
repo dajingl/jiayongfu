@@ -1,7 +1,7 @@
 class GoodsController < BaseController
 
   def index
-    @Goods = Good.all.order(created_at: :desc)
+    @Goods =  @company.goods.order(created_at: :desc)
   end
 
 
