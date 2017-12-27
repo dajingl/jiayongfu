@@ -1,5 +1,5 @@
 class HomeController < BaseController
- def index
+ def show
    @posters = @company.posters.order(rank: :desc)
  end
 end
