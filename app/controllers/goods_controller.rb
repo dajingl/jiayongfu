@@ -6,7 +6,7 @@ class GoodsController < BaseController
 
 
   def show
-    @Goods = Good.find(params[:good_id])
+    @Goods = Good.find(params[:id])
   end
 
 end

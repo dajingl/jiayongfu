@@ -6,7 +6,7 @@ class OffersController < BaseController
 
 
   def show
-    @Offer = Offer.find(params[:offer_id])
+    @Offer = Offer.find(params[:id])
   end
 
 end

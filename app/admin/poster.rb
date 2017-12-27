@@ -5,7 +5,9 @@ ActiveAdmin.register Poster do
 
   form do |f|
     f.inputs do
-      f.input :companys
+      f.inputs '公司' do
+        f.input :company
+      end
       f.input :title
       f.input :main_photo, as: :qi_niu_file
     end

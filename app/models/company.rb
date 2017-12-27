@@ -18,4 +18,6 @@ class Company < ApplicationRecord
   has_many :goods
   has_many :offers
   has_many :posters
+
+
 end
