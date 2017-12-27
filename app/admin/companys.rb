@@ -3,6 +3,16 @@ ActiveAdmin.register Company do
     Company.column_names
   end
 
+  index do
+    selectable_column
+    id_column
+    column :name
+    column :address
+    column :created_at
+    column :updated_at
+    actions
+  end
+
   form do |f|
     f.inputs '企业' do
       f.input :name

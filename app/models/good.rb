@@ -15,6 +15,7 @@
 #
 
 class Good < ApplicationRecord
+  belongs_to :company
   before_save :normalize_content
   enum state: { show: 0, hide: 1}
 

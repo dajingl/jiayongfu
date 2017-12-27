@@ -6,4 +6,6 @@ Rails.application.routes.draw do
   resources :offers
   resources :goods
   resource :about_us
+  resource :contact_us
+  resources :enterprise_dynamics
 end

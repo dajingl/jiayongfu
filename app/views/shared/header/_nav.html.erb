@@ -1,17 +1,16 @@
 <div class="nav-wrap animated fadeInDown">
     <div class="container nav-home">
       <div class="logo-box">
-        <%= background_img_tag @company.logo, class: 'logo',size:'30' %>
-        <%= @company.name %>
+        <%= background_img_tag @company.logo, class: 'logo' %>
       </div>
 
       <ul class="navbar-right hidden-xs">
         <li class="animated zoomIn"><%= active_link_to '首页', root_path, active: :exact %></li>
         <li class="animated zoomIn"><%= active_link_to '关于我们', about_us_path,active: :exact %></li>
-        <li class="animated zoomIn"><%= active_link_to '企业动态', '',active: :exact %></li>
+        <li class="animated zoomIn"><%= active_link_to '企业动态', enterprise_dynamics_path,active: :exact %></li>
         <li class="animated zoomIn"><%= active_link_to '产品详情', goods_path, active: :exact %></li>
         <li class="animated zoomIn"><%= active_link_to '招聘信息', offers_path, active: :exact %></li>
-        <li class="animated zoomIn"><%= active_link_to '联系我们', '',active: :exact %></li>
+        <li class="animated zoomIn"><%= active_link_to '联系我们', contact_us_path,active: :exact %></li>
       </ul>
     </div>
 </div>

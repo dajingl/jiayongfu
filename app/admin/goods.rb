@@ -3,6 +3,17 @@ ActiveAdmin.register Good do
     Good.column_names
   end
 
+  index do
+    selectable_column
+    id_column
+    column :title
+    column :state
+    column :rank
+    column :created_at
+    column :updated_at
+    actions
+  end
+
   form do |f|
     f.inputs '产品排行' do
       f.input :state
