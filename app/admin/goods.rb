@@ -15,6 +15,7 @@ ActiveAdmin.register Good do
   end
 
   form do |f|
+    f.input :companys
     f.inputs '产品排行' do
       f.input :state
       f.input :rank

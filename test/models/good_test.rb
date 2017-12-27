@@ -12,6 +12,7 @@
 #  created_at  :datetime         not null
 #  updated_at  :datetime         not null
 #  abstraction :text(65535)
+#  company_id  :integer
 #
 
 require 'test_helper'
