@@ -22,7 +22,6 @@
 
 .nav-home {
   padding: 0;
-  height: 75px;
 
   .logo {
     width: 350px;
@@ -101,7 +100,6 @@
 
   .right {
     margin: 5px 0;
-    height: 63px;
     text-align: right;
   }
 
@@ -192,23 +190,37 @@
       margin: 22px 0 0;
       text-align: center;
     }
+    li {
+     display: block;
+    }
   }
 }
 
 @media (max-width: 414px) {
-
   .nav-home {
     padding: 10px 5px 0;
-    height: 70px;
-    .logo {
-      width: 300px;
-      height: 53px;
-    }
+      .logo {
+        width: 300px;
+        height: 53px;
+      }
 
-    .btn-x {
-      margin: 10px 0 0;
-      text-align: right;
+      .btn-x {
+        margin: 10px 0 0;
+        text-align: right;
 
-    }
+      }
+
+     ul.right {
+       margin-top: 55px;
+     }
+
+      li {
+        display: block;
+        a {
+          text-align: left;
+        }
+        border-bottom: .5px solid $border-gray-color;
+      }
+
     }
 }

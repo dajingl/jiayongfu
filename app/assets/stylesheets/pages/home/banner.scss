@@ -102,6 +102,10 @@
     height: 150px;
     .carousel {
       height: 150px;
+
+      .txt {
+        display: none;
+      }
     }
   }
 }
