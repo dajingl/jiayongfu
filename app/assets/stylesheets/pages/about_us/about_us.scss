@@ -1,19 +1,23 @@
-.loading {
-  width: 256px;
-  height: 32px;
-}
+.about-us {
 
-.loading-bg {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-  background-color: $black-light;
-
-  >h1 {
-    color: $white;
+  .loading {
+    width: 256px;
+    height: 32px;
   }
+
+  .loading-bg {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: $black-light;
+
+    > h1 {
+      color: $white;
+    }
+  }
+
 }
