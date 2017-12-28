@@ -1,15 +1,22 @@
 <div class="nav-wrap animated fadeInDown">
-    <div class="tel-me">热线电话: 029-812345678</div>
+    <div class="tel-me visible-lg visible-md">热线电话: 029-812345678</div>
     <div class="container nav-home">
-      <div class="logo-box">
-        <%= background_img_tag @company.logo, class: 'logo' %>
-      </div>
+      <div class="row">
+        <div class="logo-box col-md-4 col-sm-10">
+          <%= background_img_tag @company.logo, class: 'logo' %>
+        </div>
 
-      <ul class="right visible-lg visible-md">
-        <li class="animated zoomIn">
+         <div class=" btn-x hidden-md hidden-lg col-md-8 col-sm-2">
+           <span id="btn-close" class="open">
+             <i></i>
+           </span>
+         </div>
+        <ul class="right col-md-8 col-sm-12 visible-md visible-lg">
+
+          <li class="animated zoomIn">
           <%= active_link_to  root_path, active: :exact  do %>
             <div>首页</div>
-            <span>home</span>
+            <span>Home</span>
           <% end %>
         </li>
         <li class="animated zoomIn">
@@ -43,6 +50,7 @@
           <% end %>
         </li>
       </ul>
+      </div>
     </div>
 </div>
 

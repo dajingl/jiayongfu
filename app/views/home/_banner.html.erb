@@ -16,7 +16,6 @@
       <% @posters.each_with_index do |poster ,index| %>
             <div class="item <%= 'active' if index==0 %>">
               <%= background_img_tag poster.main_photo, class: 'banner-bg' %>
-
               <div class="txt">
                 <%=  poster.title %>
               </div>

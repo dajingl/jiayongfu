@@ -19,5 +19,11 @@ body.index {
 }
 
 .body-content {
+  margin-top: 111px;
+}
 
+@media (max-width: 768px) {
+  .body-content {
+    margin-top: 80px;
+  }
 }
