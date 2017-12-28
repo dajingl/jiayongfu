@@ -1,5 +1,7 @@
 {
   "name": "jiayongfu",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "loading-svg": "^1.0.0"
+  }
 }
