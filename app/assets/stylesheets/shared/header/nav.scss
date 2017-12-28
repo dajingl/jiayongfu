@@ -1,71 +1,107 @@
 .nav-wrap {
   position: fixed;
   top: 0;
+  padding: 18px 0;
   width: 100%;
-  height: 50px;
-  background-color: $blue;
+  height: 116px;
+  line-height: 100%;
+  background-color: $white;
   z-index: 100;
-  border-bottom: 1px solid $border-gray-color;
-  box-shadow: 0 0 5px ;
 }
+
+
+.nav-home {
+  padding: 0;
 
   .logo-box {
     display: inline-block;
   }
 
   .logo {
-    width: 250px;
-    height: 50px;
+    width: 350px;
+    height: 73px;
   }
 
-  .nav-home {
+  .right {
+    margin: 5px 0;
+    height: 63px;
+    float:right;
+    padding-left: 0;
+  }
 
-    li {
-      display: inline-block;
-      padding:  0 18px;
+  li {
+    display: inline-block;
+    padding:  0 18px;
+  }
+
+  a {
+    position: relative;
+    height: 63px;
+    padding: 8px 0;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: $black-lightest;
+
+    div {
+      height: 24px;
+      letter-spacing: 3px;
     }
 
-    a {
+    span {
       position: relative;
-      display: inline-block;
-      text-decoration: none;
-      padding: 15px 0;
-      color: $white;
-
-      &::before {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        margin: 0 auto;
-        width: 0;
-        height: 3px;
-        content: '';
-        transition: width .5s;
-      }
-
-      &:hover {
-        &::before {
-          width: 100%;
-          background-color: $color-lighter-text;
-        }
-      }
+      bottom: -20px;
+      heigh: 19px;
+      opacity: 0;
+      transition: .3s;
     }
 
-    .active {
-     font-weight: 500;
 
+
+    &::before {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: 0 auto;
+      width: 0;
+      height: 3px;
+      content: '';
+      background-color: $attention;
+      transition: width .5s;
+    }
+
+    &:hover {
       &::before {
-        position: absolute;
-        right: 0;
+        width: 100%;
+      }
+
+      span {
         bottom: 0;
-        left: 0;
-        margin: 0 auto;
-        width: 60%;
-        height: 3px;
-        background-color: $white;
-        content: '';
-        transition: width .5s;
+        heigh: 19px;
+        opacity: .8;
       }
     }
+  }
+
+  .active {
+   font-weight: 500;
+
+    &::before {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: 0 auto;
+      width: 100%;
+      height: 3px;
+      content: '';
+    }
+
+    span {
+      bottom: 0;
+      heigh: 19px;
+      opacity: .8;
+    }
+  }
 }
