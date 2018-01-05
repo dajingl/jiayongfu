@@ -2,16 +2,16 @@
 <div class="content-box">
   <div class="container">
     <div class="row">
-      <div class="col-md-3 left-bar">
+      <div class="col-md-3 col-sm-12 left-bar">
         <ul>
-          <li>招贤纳士</li>
-          <li>
+          <li class="visible-lg visible-md">招贤纳士</li>
+          <li class="col-md-12 col-sm-6 col-xs-6">
             <%= active_link_to offers_path,active: :exact  do %>
                 <span>高薪诚聘</span>
                 <span class="bkg"></span>
             <% end %>
           </li>
-          <li>
+          <li class="col-md-12 col-sm-6 col-xs-6">
             <%= active_link_to offers_path(state: 'message'),active: :exact  do %>
                 <span>在线留言</span>
                 <span class="bkg"></span>
@@ -19,7 +19,7 @@
           </li>
         </ul>
       </div>
-      <div class="col-md-9 right-content">
+      <div class="col-md-9 col-sm-12 right-content">
         <%= render 'content' %>
       </div>
     </div>

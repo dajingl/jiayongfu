@@ -3,16 +3,16 @@
 <div class="content-box">
   <div class="container">
     <div class="row">
-      <div class="col-md-3 left-bar">
+      <div class="col-md-3 col-sm-12 left-bar">
         <ul>
-          <li>新闻中心</li>
-          <li>
+          <li class="visible-lg visible-md">新闻中心</li>
+          <li class="col-md-12 col-sm-6 col-xs-6">
             <%= active_link_to enterprise_dynamics_path,active: :exact  do %>
                 <span>公司新闻</span>
                 <span class="bkg"></span>
             <% end %>
           </li>
-          <li>
+          <li class="col-md-12 col-sm-6 col-xs-6">
             <%= active_link_to enterprise_dynamics_path(state: 'industry'),active: :exact  do %>
                 <span>行业新闻</span>
                 <span class="bkg"></span>
@@ -20,7 +20,7 @@
           </li>
         </ul>
       </div>
-      <div class="col-md-9 right-content">
+      <div class="col-md-9 col-sm-12 right-content">
 
       </div>
     </div>

@@ -99,13 +99,32 @@ body.index {
 }
 
 .right-content {
-  padding: 50px;
+  padding: 55px;
   border-left: .5px solid $gray-lights;
 }
 
 @media (max-width: 768px) {
   .body-content {
     margin-top: 70px;
+  }
+
+  .left-bar {
+    ul {
+      top: 0;
+      li {
+        text-align: center;
+        &:not(:first-child) {
+            border-left: .5px solid $gray-lights;
+        }
+
+        span {
+          padding-left: 0;
+        }
+      }
+
+
+
+    }
   }
 }
 

@@ -2,22 +2,22 @@
 <div class="content-box">
   <div class="container">
     <div class="row">
-      <div class="col-md-3 left-bar">
+      <div class="col-md-3 col-sm-12 left-bar">
         <ul>
-          <li>关于企业</li>
-          <li>
+          <li class="visible-lg visible-md">关于企业</li>
+          <li class="col-md-12 col-sm-4 col-xs-4">
             <%= active_link_to about_us_path,active: :exact  do %>
                 <span>企业介绍</span>
                 <span class="bkg"></span>
             <% end %>
           </li>
-          <li>
+          <li class="col-md-12 col-sm-4 col-xs-4">
             <%= active_link_to about_us_path(state: 'culture'),active: :exact  do %>
                 <span>企业文化</span>
                 <span class="bkg"></span>
             <% end %>
           </li>
-          <li>
+          <li class="col-md-12 col-sm-4 col-xs-4">
             <%= active_link_to about_us_path(state: 'honor'),active: :exact  do %>
                 <span>荣誉资质</span>
                 <span class="bkg"></span>
@@ -25,7 +25,7 @@
           </li>
         </ul>
       </div>
-      <div class="col-md-9 right-content">
+      <div class="col-md-9 col-sm-12 right-content">
         <%= render 'content' %>
       </div>
     </div>
