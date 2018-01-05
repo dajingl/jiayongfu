@@ -1,9 +1,9 @@
 <% if params[:state] == 'culture' %>
-1
+    <%= @company.culture&.html_safe  %>
 <% elsif params[:state] == 'honor'  %>
 2
 <% else %>
-3
+    <%= @company.culture&.html_safe  %>
 <% end %>
 
 

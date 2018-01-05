@@ -23,7 +23,7 @@ ActiveAdmin.register Company do
 
     f.inputs '企业文化' do
       f.input :Introduction
-      f.input :culture
+      f.input :culture, input_html: {class: 'rich-editor box',data: {'image-upload-token': QiniuToken.token_for_simditor }}
       f.input :main
     end
 
