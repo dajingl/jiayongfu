@@ -5,9 +5,9 @@ $(document).on('turbolinks:load', function () {
         var $diff = windowH - bodyH;
         var $footer = $('.footer');
      console.log(windowH ,'-----', bodyH , $diff)
-        if ($diff < 198) {
+        if ($diff < 188) {
             $footer.css('position', 'relative');
-        } else if ($diff > 198) {
+        } else if ($diff > 188) {
             $footer.css('position', 'fixed');
         }
     };
