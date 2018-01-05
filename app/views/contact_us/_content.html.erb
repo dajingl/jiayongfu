@@ -1,7 +1,7 @@
-<div class="content-box">
-  <div class="container">
-    <div class="">
-    </div>
-  </div>
-</div>
-
+<% if params[:state] == 'network' %>
+    1
+<% elsif params[:state] == 'service'  %>
+    2
+<% else %>
+    3
+<% end %>

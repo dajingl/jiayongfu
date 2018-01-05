@@ -1,12 +1,8 @@
-<ul>
-  <% @Offers.each do |offer| %>
-      <li class="follow-list">
-        <h2><%= offer.title %></h2>
-        <p>
-          <%= offer.description %>
-        </p>
-      </li>
-  <% end %>
-</ul>
+<% if params[:state] == 'message' %>
+1
+<% else %>
+2
+<% end %>
+
 
 
