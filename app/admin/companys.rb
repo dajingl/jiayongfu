@@ -16,15 +16,15 @@ ActiveAdmin.register Company do
   form do |f|
     f.inputs '企业' do
       f.input :name
+      f.input :main
       f.input :logo, as: :qi_niu_file
       f.input :qr_code, as: :qi_niu_file
       f.input :address
     end
 
     f.inputs '企业文化' do
-      f.input :Introduction
+      f.input :introduction
       f.input :culture, input_html: {class: 'rich-editor box',data: {'image-upload-token': QiniuToken.token_for_simditor }}
-      f.input :main
     end
 
     f.actions
