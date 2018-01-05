@@ -1,6 +1,34 @@
-<div class="about-us">
-  <div class="loading-bg">
-    <%= image_tag 'about_us/loading-cylon.svg', class: 'loading' %>
-    <h1>About Us</h1>
+<%= render 'banner' %>
+<div class="content-box">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 left-bar">
+        <ul>
+          <li>关于企业</li>
+          <li>
+            <%= active_link_to about_us_path,active: :exact  do %>
+                <span>企业介绍</span>
+                <span class="bkg"></span>
+            <% end %>
+          </li>
+          <li>
+            <%= active_link_to about_us_path(state: 'industry'),active: :exact  do %>
+                <span>企业文化</span>
+                <span class="bkg"></span>
+            <% end %>
+          </li>
+          <li>
+            <%= active_link_to about_us_path(state: 'honor'),active: :exact  do %>
+                <span>荣誉资质</span>
+                <span class="bkg"></span>
+            <% end %>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-9 right-content">
+        <%= render 'content' %>
+      </div>
+    </div>
   </div>
 </div>
+

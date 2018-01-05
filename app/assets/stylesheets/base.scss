@@ -22,6 +22,86 @@ body.index {
   margin-top: 111px;
 }
 
+.left-bar {
+  padding-right: 0;
+  padding-left: 0;
+  ul {
+    padding: 0;
+    position: absolute;
+    top: -55px;
+    width: 100%;
+    outline: .5px solid $gray-lights;
+
+    li {
+      position: relative;
+      display: block;
+      height: 55px;
+      line-height: 55px;
+      background: $gray-light;
+      border-bottom: .5px solid $gray-lights;
+      overflow: hidden;
+
+      &:first-child {
+        padding-left: 10px;
+        background: $black-lighter;
+        color: $white;
+        font-size: 28px;
+      }
+
+      &:last-child {
+        border-bottom: 0;
+      }
+
+      span {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding-left: 15px;
+        display: block;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+        color: $gray-lighter;
+      }
+
+      .bkg {
+        top: 100%;
+        z-index: 1;
+        background: $borw-light;
+        webkit-transition: top 200ms;
+        transition: top 200ms;
+      }
+
+      &:hover {
+        span {
+          color: $white;
+        }
+
+        .bkg {
+          top: 1px;
+        }
+      }
+
+      .active {
+        span {
+          color: $white;
+        }
+
+        .bkg {
+          top: 1px;
+        }
+      }
+
+    }
+  }
+
+}
+
+.right-content {
+  padding: 50px;
+  border-left: .5px solid $gray-lights;
+}
+
 @media (max-width: 768px) {
   .body-content {
     margin-top: 70px;

@@ -1,3 +1,29 @@
-<ul>
+<%= render 'banner' %>
 
-</ul>
+<div class="content-box">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 left-bar">
+        <ul>
+          <li>新闻中心</li>
+          <li>
+            <%= active_link_to enterprise_dynamics_path,active: :exact  do %>
+              <span>公司新闻</span>
+              <span class="bkg"></span>
+            <% end %>
+          </li>
+          <li>
+            <%= active_link_to enterprise_dynamics_path(state: 'industry'),active: :exact  do %>
+              <span>行业新闻</span>
+              <span class="bkg"></span>
+            <% end %>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-9 right-content">
+        <%= render 'content' %>
+      </div>
+    </div>
+  </div>
+</div>
+

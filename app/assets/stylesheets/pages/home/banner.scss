@@ -1,112 +1,115 @@
-.banner-box {
-  height: 480px;
-  background-color: $white;
-
-  .carousel {
-    padding: 0 5px;
-    position: fixed;
-    width: 100%;
+.home-page {
+  .banner-box {
     height: 480px;
     background-color: $white;
 
-    .carousel-indicators {
-      position: absolute;
-      bottom: 50%;
-      left: 0;
-      width: 5%;
-      margin-left: 0;
+    .carousel {
+      padding: 0 5px;
+      position: fixed;
+      width: 100%;
+      height: 480px;
+      background-color: $white;
+
+      .carousel-indicators {
+        position: absolute;
+        bottom: 50%;
+        left: 0;
+        width: 5%;
+        margin-left: 0;
 
 
-      li {
-        display: block;
-        margin: 10px 15px;
-        width: 30%;
-        height: 5px;
-        border: .5px solid $white;
-        background: $green-light;
-        transition: .5s;
+        li {
+          display: block;
+          margin: 10px 15px;
+          width: 30%;
+          height: 5px;
+          border: .5px solid $white;
+          background: $green-light;
+          transition: .5s;
 
-        &:hover {
+          &:hover {
+            width: 80%;
+          }
+        }
+
+        .active {
           width: 80%;
         }
       }
 
-      .active {
-        width: 80%;
-      }
-    }
-
-    .carousel-inner {
-      width: 100%;
-      height: 100%;
-
-      .banner-bg {
-        width: 110%;
-        height: 110%;
-        transition: width,height 1s;
-        -moz-transition: width 1s, height 1s, -moz-transform 1s;
-        -webkit-transition: width 1s, height 1s, -webkit-transform 1s;
-        -o-transition: width 1s, height 1s,-o-transform 1s;
-      }
-
-      .item {
+      .carousel-inner {
         width: 100%;
         height: 100%;
-      }
 
-      .active {
         .banner-bg {
+          width: 110%;
+          height: 110%;
+          transition: width,height 1s;
+          -moz-transition: width 1s, height 1s, -moz-transform 1s;
+          -webkit-transition: width 1s, height 1s, -webkit-transform 1s;
+          -o-transition: width 1s, height 1s,-o-transform 1s;
+        }
+
+        .item {
           width: 100%;
           height: 100%;
         }
 
+        .active {
+          .banner-bg {
+            width: 100%;
+            height: 100%;
+          }
+
+          .txt {
+            bottom: 30px;
+          }
+
+        }
+
         .txt {
-          bottom: 30px;
-        }
+          position: absolute;
+          bottom: -30px;
+          padding-left: 14px;
+          width: 100%;
+          height: 50px;
+          line-height: 50px;
+          background-color: $banner-bottom-bg;
+          transition: bottom 1s;
+          -moz-transition: bottom 1s, -moz-transform 1s;
+          -webkit-transition: bottom 1s, -webkit-transform 1s;
+          -o-transition: bottom 1s,-o-transform 1s;
 
-      }
-
-      .txt {
-        position: absolute;
-        bottom: -30px;
-        padding-left: 14px;
-        width: 100%;
-        height: 50px;
-        line-height: 50px;
-        background-color: $banner-bottom-bg;
-        transition: bottom 1s;
-        -moz-transition: bottom 1s, -moz-transform 1s;
-        -webkit-transition: bottom 1s, -webkit-transform 1s;
-        -o-transition: bottom 1s,-o-transform 1s;
-
-        a {
-          font-size: 16px;
-          color: $white;
+          a {
+            font-size: 16px;
+            color: $white;
+          }
         }
       }
     }
   }
-}
 
-@media (max-width: 768px) {
-  .banner-box {
-    height: 300px;
-    .carousel {
+  @media (max-width: 768px) {
+    .banner-box {
       height: 300px;
-    }
-  }
-}
-
-@media (max-width: 414px) {
-  .banner-box {
-    height: 150px;
-    .carousel {
-      height: 150px;
-
-      .txt {
-        display: none;
+      .carousel {
+        height: 300px;
       }
     }
   }
+
+  @media (max-width: 414px) {
+    .banner-box {
+      height: 150px;
+      .carousel {
+        height: 150px;
+
+        .txt {
+          display: none;
+        }
+      }
+    }
+  }
+
 }
 

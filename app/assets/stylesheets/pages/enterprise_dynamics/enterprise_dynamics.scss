@@ -1,8 +1,8 @@
-.about_us-page {
+.enterprise_dynamics-page {
   .banner-box {
     width: 100%;
     height: 450px;
-    background: url("about_us/banner.jpg") no-repeat;
+    background: url("news/banner.jpeg") no-repeat;
     background-position: center;
     background-size: cover;
   }
@@ -14,11 +14,13 @@
       }
     }
   }
-
   @media (max-width: 414px) {
     .banner-box {
       height: 150px;
     }
   }
-
 }
+
+
+
+

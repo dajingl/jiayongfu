@@ -53,18 +53,49 @@
         margin-bottom: 22px;
         padding: 0 15px;
 
-        img {
+        div {
           border: 0;
           width: 100%;
-          height: 133.3px;
+          height: 200px;
           transition:  all .5s;
+
+          &.dz {
+            background: url("home/dz.jpeg") no-repeat;
+            background-position: center;
+            background-size: cover;
+          }
+
+          &.db {
+            background: url("home/db.jpg") no-repeat;
+            background-position: center;
+            background-size: cover;
+          }
         }
 
         h4 {
-          padding: 15px 0;
+          padding: 15px 0 0;
           border-bottom: 1px solid $border-gray-color;
           font-weight: 400;
           line-height: 1.2;
+
+          span {
+            position: relative;
+            display: inline-block;
+            padding-bottom: 15px;
+            width: 100%;
+
+            &::before {
+              position: absolute;
+              right: 0;
+              bottom: 0;
+              left: 0;
+              width: 10%;
+              height: 3px;
+              content: '';
+              background-color: $attention;
+              transition: width .3s;
+            }
+          }
         }
 
         p {
@@ -73,13 +104,21 @@
         }
 
         &:hover {
-          img {
+          div {
             box-shadow: 0 -2.5px 5px 0 $border-gray-color;
             transform: translateZ(-2px);
             -ms-transform: translateZ(-2px);
             -moz-transform: translateZ(-2px);
             -webkit-transform: translateZ(-2px);
             -o-transform: translateZ(-2px);
+          }
+
+          span {
+            width: 100%;
+
+            &::before {
+              width: 100%;
+            }
           }
         }
 

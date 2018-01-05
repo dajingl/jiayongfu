@@ -1,0 +1,33 @@
+<%= render 'banner' %>
+<div class="content-box">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 left-bar">
+        <ul>
+          <li>联系我们</li>
+          <li>
+            <%= active_link_to contact_us_path,active: :exact  do %>
+                <span>联系我们</span>
+                <span class="bkg"></span>
+            <% end %>
+          </li>
+          <li>
+            <%= active_link_to contact_us_path(state: 0),active: :exact  do %>
+                <span>市场网络</span>
+                <span class="bkg"></span>
+            <% end %>
+          </li>
+          <li>
+            <%= active_link_to contact_us_path(state: 1),active: :exact  do %>
+                <span>服务中心</span>
+                <span class="bkg"></span>
+            <% end %>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-9 right-content">
+        <%= render 'content' %>
+      </div>
+    </div>
+  </div>
+</div>

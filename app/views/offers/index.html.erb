@@ -1,10 +1,27 @@
-<ul>
-  <% @Offers.each do |offer| %>
-      <li class="follow-list">
-        <h2><%= offer.title %></h2>
-        <p>
-          <%= offer.description %>
-        </p>
-      </li>
-  <% end %>
-</ul>
+<%= render 'banner' %>
+<div class="content-box">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 left-bar">
+        <ul>
+          <li>招贤纳士</li>
+          <li>
+            <%= active_link_to offers_path,active: :exact  do %>
+                <span>高薪诚聘</span>
+                <span class="bkg"></span>
+            <% end %>
+          </li>
+          <li>
+            <%= active_link_to offers_path(state: 1),active: :exact  do %>
+                <span>在线留言</span>
+                <span class="bkg"></span>
+            <% end %>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-9 right-content">
+        <%= render 'content' %>
+      </div>
+    </div>
+  </div>
+</div>
